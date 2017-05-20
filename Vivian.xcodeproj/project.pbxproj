@@ -13,6 +13,8 @@
 		065F60221ED0087D00896DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065F60211ED0087D00896DF9 /* Assets.xcassets */; };
 		065F60251ED0087D00896DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */; };
 		065F60301ED0087D00896DF9 /* VivianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianTests.swift */; };
+		522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */; };
+		A32BF624A31BD0CD7F15199B /* Pods_Vivian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		065F602B1ED0087D00896DF9 /* VivianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065F602F1ED0087D00896DF9 /* VivianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianTests.swift; sourceTree = "<group>"; };
 		065F60311ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.release.xcconfig"; sourceTree = "<group>"; };
+		80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.release.xcconfig"; sourceTree = "<group>"; };
+		80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F45885C4E8659EB2074162 /* Pods-Vivian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32BF624A31BD0CD7F15199B /* Pods_Vivian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				065F60191ED0087D00896DF9 /* Vivian */,
 				065F602E1ED0087D00896DF9 /* VivianTests */,
 				065F60181ED0087D00896DF9 /* Products */,
+				C479F4712E566A0344DE7C2D /* Pods */,
+				9698E38277CB98F07FA6AF8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = VivianTests;
 			sourceTree = "<group>";
 		};
+		9698E38277CB98F07FA6AF8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */,
+				80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C479F4712E566A0344DE7C2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F45885C4E8659EB2074162 /* Pods-Vivian.debug.xcconfig */,
+				3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */,
+				1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */,
+				80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065F60341ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "Vivian" */;
 			buildPhases = (
+				5A5E685345518FF4D5BCD3FF /* [CP] Check Pods Manifest.lock */,
 				065F60131ED0087D00896DF9 /* Sources */,
 				065F60141ED0087D00896DF9 /* Frameworks */,
 				065F60151ED0087D00896DF9 /* Resources */,
+				950F1FB0FC896BC641B485AC /* [CP] Embed Pods Frameworks */,
+				DD1A5619083FE567E5835292 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianTests" */;
 			buildPhases = (
+				60E41047048202C616238071 /* [CP] Check Pods Manifest.lock */,
 				065F60271ED0087D00896DF9 /* Sources */,
 				065F60281ED0087D00896DF9 /* Frameworks */,
 				065F60291ED0087D00896DF9 /* Resources */,
+				D1DB694A86987263DAB9F974 /* [CP] Embed Pods Frameworks */,
+				5DA75B6A270185922852E9C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5E685345518FF4D5BCD3FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA75B6A270185922852E9C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E41047048202C616238071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		950F1FB0FC896BC641B485AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vivian/Pods-Vivian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DB694A86987263DAB9F974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1A5619083FE567E5835292 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vivian/Pods-Vivian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		065F60131ED0087D00896DF9 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		065F60351ED0087D00896DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F45885C4E8659EB2074162 /* Pods-Vivian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vivian/Info.plist;
@@ -351,6 +483,7 @@
 		};
 		065F60361ED0087D00896DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vivian/Info.plist;
@@ -363,6 +496,7 @@
 		};
 		065F60381ED0087D00896DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +511,7 @@
 		};
 		065F60391ED0087D00896DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
