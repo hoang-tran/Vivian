@@ -13,6 +13,7 @@
 		065F60221ED0087D00896DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065F60211ED0087D00896DF9 /* Assets.xcassets */; };
 		065F60251ED0087D00896DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */; };
 		065F60301ED0087D00896DF9 /* VivianUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */; };
+		065F60411ED00A0700896DF9 /* VivianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F60401ED00A0700896DF9 /* VivianUITests.swift */; };
 		0ABBFBB6DD6E748F6CFB4691 /* Pods_VivianUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */; };
 		522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */; };
 		A32BF624A31BD0CD7F15199B /* Pods_Vivian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */; };
@@ -20,6 +21,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		065F602C1ED0087D00896DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065F600F1ED0087D00896DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065F60161ED0087D00896DF9;
+			remoteInfo = Vivian;
+		};
+		065F60431ED00A0700896DF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 065F600F1ED0087D00896DF9 /* Project object */;
 			proxyType = 1;
@@ -39,6 +47,9 @@
 		065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianUnitTests.swift; sourceTree = "<group>"; };
 		065F60311ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065F603E1ED00A0700896DF9 /* VivianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065F60401ED00A0700896DF9 /* VivianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianUITests.swift; sourceTree = "<group>"; };
+		065F60421ED00A0700896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.release.xcconfig"; sourceTree = "<group>"; };
 		80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +79,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		065F603B1ED00A0700896DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,6 +94,7 @@
 			children = (
 				065F60191ED0087D00896DF9 /* Vivian */,
 				065F602E1ED0087D00896DF9 /* VivianUnitTests */,
+				065F603F1ED00A0700896DF9 /* VivianUITests */,
 				065F60181ED0087D00896DF9 /* Products */,
 				C479F4712E566A0344DE7C2D /* Pods */,
 				9698E38277CB98F07FA6AF8C /* Frameworks */,
@@ -87,6 +106,7 @@
 			children = (
 				065F60171ED0087D00896DF9 /* Vivian.app */,
 				065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */,
+				065F603E1ED00A0700896DF9 /* VivianUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +132,15 @@
 			);
 			name = VivianUnitTests;
 			path = VivianTests;
+			sourceTree = "<group>";
+		};
+		065F603F1ED00A0700896DF9 /* VivianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				065F60401ED00A0700896DF9 /* VivianUITests.swift */,
+				065F60421ED00A0700896DF9 /* Info.plist */,
+			);
+			path = VivianUITests;
 			sourceTree = "<group>";
 		};
 		9698E38277CB98F07FA6AF8C /* Frameworks */ = {
@@ -181,6 +210,24 @@
 			productReference = 065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		065F603D1ED00A0700896DF9 /* VivianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065F60471ED00A0700896DF9 /* Build configuration list for PBXNativeTarget "VivianUITests" */;
+			buildPhases = (
+				065F603A1ED00A0700896DF9 /* Sources */,
+				065F603B1ED00A0700896DF9 /* Frameworks */,
+				065F603C1ED00A0700896DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065F60441ED00A0700896DF9 /* PBXTargetDependency */,
+			);
+			name = VivianUITests;
+			productName = VivianUITests;
+			productReference = 065F603E1ED00A0700896DF9 /* VivianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +243,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					065F602A1ED0087D00896DF9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065F60161ED0087D00896DF9;
+					};
+					065F603D1ED00A0700896DF9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 065F60161ED0087D00896DF9;
@@ -217,6 +269,7 @@
 			targets = (
 				065F60161ED0087D00896DF9 /* Vivian */,
 				065F602A1ED0087D00896DF9 /* VivianUnitTests */,
+				065F603D1ED00A0700896DF9 /* VivianUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +286,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		065F60291ED0087D00896DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065F603C1ED00A0700896DF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,6 +412,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		065F603A1ED00A0700896DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065F60411ED00A0700896DF9 /* VivianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -359,6 +427,11 @@
 			isa = PBXTargetDependency;
 			target = 065F60161ED0087D00896DF9 /* Vivian */;
 			targetProxy = 065F602C1ED0087D00896DF9 /* PBXContainerItemProxy */;
+		};
+		065F60441ED00A0700896DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065F60161ED0087D00896DF9 /* Vivian */;
+			targetProxy = 065F60431ED00A0700896DF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -533,6 +606,32 @@
 			};
 			name = Release;
 		};
+		065F60451ED00A0700896DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VivianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.VivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivian.app/Vivian";
+			};
+			name = Debug;
+		};
+		065F60461ED00A0700896DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VivianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.VivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivian.app/Vivian";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,6 +661,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		065F60471ED00A0700896DF9 /* Build configuration list for PBXNativeTarget "VivianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065F60451ED00A0700896DF9 /* Debug */,
+				065F60461ED00A0700896DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
