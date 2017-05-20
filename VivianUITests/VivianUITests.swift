@@ -2,7 +2,7 @@
 //  VivianUITests.swift
 //  VivianUITests
 //
-//  Created by Hoang Personal on 20/5/17.
+//  Created by Hoang Tran on 20/5/17.
 //  Copyright © 2017 Hoang. All rights reserved.
 //
 
