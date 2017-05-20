@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: a74e6d5c9729671cdf079f00af807fd651491e35
+PODS:
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - Nimble (6.0.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - KIF (~> 3.0)
+  - Nimble (~> 6.0.0)
+  - Quick (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  KIF: '082eb65279e51c3092923802849eb796a04982ab'
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: ed680cbc55b95a8d8f202c0c8bdcae2e44bbef00
 
 COCOAPODS: 1.2.0

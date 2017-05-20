@@ -15,7 +15,7 @@
 		065F60301ED0087D00896DF9 /* VivianUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */; };
 		065F60411ED00A0700896DF9 /* VivianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F60401ED00A0700896DF9 /* VivianUITests.swift */; };
 		0ABBFBB6DD6E748F6CFB4691 /* Pods_VivianUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */; };
-		522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */; };
+		677847CEF098AF156C3F866A /* Pods_VivianUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B77D6B753D7C05A5E41D4B /* Pods_VivianUITests.framework */; };
 		A32BF624A31BD0CD7F15199B /* Pods_Vivian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,14 +50,23 @@
 		065F603E1ED00A0700896DF9 /* VivianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065F60401ED00A0700896DF9 /* VivianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianUITests.swift; sourceTree = "<group>"; };
 		065F60421ED00A0700896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B65A9C3085ACE1AF50C1C90 /* Pods-Vivian-VivianUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian-VivianUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian-VivianUnitTests/Pods-Vivian-VivianUnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27DA7F9962BFAB22E2AB7107 /* Pods-Vivian-VivianUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian-VivianUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian-VivianUITests/Pods-Vivian-VivianUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.release.xcconfig"; sourceTree = "<group>"; };
+		43B77D6B753D7C05A5E41D4B /* Pods_VivianUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4928C09B70B368B0D9379740 /* Pods-Vivian-VivianUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian-VivianUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian-VivianUnitTests/Pods-Vivian-VivianUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE2F9C566A070E7430C2CD5 /* Pods-Vivian-VivianUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian-VivianUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian-VivianUITests/Pods-Vivian-VivianUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		653E4F21A8C9B00F88B920D6 /* Pods_Vivian_VivianUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivian_VivianUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.release.xcconfig"; sourceTree = "<group>"; };
 		80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CF4A31DDF01F25564EB041 /* Pods_Vivian_VivianUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivian_VivianUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEF930A248FC130D5ADF0A2 /* Pods-VivianUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA01274E02913B01E182870D /* Pods-VivianUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUITests/Pods-VivianUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B0F45885C4E8659EB2074162 /* Pods-Vivian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.debug.xcconfig"; sourceTree = "<group>"; };
 		C15DC37B32C1FC419120AEAB /* Pods-VivianUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7324AAD67FF2BD556A650C3 /* Pods-VivianUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUITests/Pods-VivianUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */,
 				0ABBFBB6DD6E748F6CFB4691 /* Pods_VivianUnitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677847CEF098AF156C3F866A /* Pods_VivianUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +158,9 @@
 				CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */,
 				80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */,
 				924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */,
+				43B77D6B753D7C05A5E41D4B /* Pods_VivianUITests.framework */,
+				85CF4A31DDF01F25564EB041 /* Pods_Vivian_VivianUITests.framework */,
+				653E4F21A8C9B00F88B920D6 /* Pods_Vivian_VivianUnitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +174,12 @@
 				80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */,
 				9DEF930A248FC130D5ADF0A2 /* Pods-VivianUnitTests.debug.xcconfig */,
 				C15DC37B32C1FC419120AEAB /* Pods-VivianUnitTests.release.xcconfig */,
+				C7324AAD67FF2BD556A650C3 /* Pods-VivianUITests.debug.xcconfig */,
+				AA01274E02913B01E182870D /* Pods-VivianUITests.release.xcconfig */,
+				4FE2F9C566A070E7430C2CD5 /* Pods-Vivian-VivianUITests.debug.xcconfig */,
+				27DA7F9962BFAB22E2AB7107 /* Pods-Vivian-VivianUITests.release.xcconfig */,
+				4928C09B70B368B0D9379740 /* Pods-Vivian-VivianUnitTests.debug.xcconfig */,
+				0B65A9C3085ACE1AF50C1C90 /* Pods-Vivian-VivianUnitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -214,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065F60471ED00A0700896DF9 /* Build configuration list for PBXNativeTarget "VivianUITests" */;
 			buildPhases = (
+				E43407998976497F30AEBAB2 /* [CP] Check Pods Manifest.lock */,
 				065F603A1ED00A0700896DF9 /* Sources */,
 				065F603B1ED00A0700896DF9 /* Frameworks */,
 				065F603C1ED00A0700896DF9 /* Resources */,
+				F6511A84CBED44FC278E34CA /* [CP] Embed Pods Frameworks */,
+				93D4D7B6E7B467D954372BD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,6 +368,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		93D4D7B6E7B467D954372BD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianUITests/Pods-VivianUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		950F1FB0FC896BC641B485AC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +426,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vivian/Pods-Vivian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43407998976497F30AEBAB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6511A84CBED44FC278E34CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianUITests/Pods-VivianUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -608,6 +674,7 @@
 		};
 		065F60451ED00A0700896DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7324AAD67FF2BD556A650C3 /* Pods-VivianUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VivianUITests/Info.plist;
@@ -621,6 +688,7 @@
 		};
 		065F60461ED00A0700896DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA01274E02913B01E182870D /* Pods-VivianUITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VivianUITests/Info.plist;
@@ -669,6 +737,7 @@
 				065F60461ED00A0700896DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
