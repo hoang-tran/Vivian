@@ -4,17 +4,20 @@ PODS:
   - KIF/Core (3.5.1)
   - Nimble (6.0.1)
   - Quick (1.0.0)
+  - SwiftLint (0.16.1)
 
 DEPENDENCIES:
   - KIF (~> 3.0)
   - Nimble (~> 6.0.0)
   - Quick (~> 1.0.0)
+  - SwiftLint
 
 SPEC CHECKSUMS:
   KIF: '082eb65279e51c3092923802849eb796a04982ab'
   Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  SwiftLint: b8b683208cc09640898f16318a7a452274e91f61
 
-PODFILE CHECKSUM: ed680cbc55b95a8d8f202c0c8bdcae2e44bbef00
+PODFILE CHECKSUM: 859bfe745a9b0fea428f8fe393a7bd0ef868dd8e
 
 COCOAPODS: 1.2.0
