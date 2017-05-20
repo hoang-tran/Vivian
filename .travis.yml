@@ -1,10 +1,13 @@
 osx_image: xcode8.3
 language: objective-c
 cache:
+  - bundler
   - cocoapods
 
 before_install:
-  - pod install
+  - sudo gem install bundler
+  - bundle install
+  - bundle exec pod install
 
 script:
   - set -o pipefail && xcodebuild -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3' -workspace Vivian.xcworkspace -scheme 'Vivian' -sdk iphonesimulator clean build test | xcpretty -c
