@@ -12,7 +12,8 @@
 		065F60201ED0087D00896DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F601E1ED0087D00896DF9 /* Main.storyboard */; };
 		065F60221ED0087D00896DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065F60211ED0087D00896DF9 /* Assets.xcassets */; };
 		065F60251ED0087D00896DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */; };
-		065F60301ED0087D00896DF9 /* VivianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianTests.swift */; };
+		065F60301ED0087D00896DF9 /* VivianUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */; };
+		0ABBFBB6DD6E748F6CFB4691 /* Pods_VivianUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */; };
 		522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */; };
 		A32BF624A31BD0CD7F15199B /* Pods_Vivian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */; };
 /* End PBXBuildFile section */
@@ -35,14 +36,17 @@
 		065F60211ED0087D00896DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		065F60241ED0087D00896DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065F60261ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		065F602B1ED0087D00896DF9 /* VivianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		065F602F1ED0087D00896DF9 /* VivianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianTests.swift; sourceTree = "<group>"; };
+		065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianUnitTests.swift; sourceTree = "<group>"; };
 		065F60311ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.release.xcconfig"; sourceTree = "<group>"; };
 		80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests.release.xcconfig"; sourceTree = "<group>"; };
 		80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivianUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF930A248FC130D5ADF0A2 /* Pods-VivianUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0F45885C4E8659EB2074162 /* Pods-Vivian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vivian/Pods-Vivian.debug.xcconfig"; sourceTree = "<group>"; };
+		C15DC37B32C1FC419120AEAB /* Pods-VivianUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivianUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522B398540B7934E51E42E9D /* Pods_VivianTests.framework in Frameworks */,
+				0ABBFBB6DD6E748F6CFB4691 /* Pods_VivianUnitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				065F60191ED0087D00896DF9 /* Vivian */,
-				065F602E1ED0087D00896DF9 /* VivianTests */,
+				065F602E1ED0087D00896DF9 /* VivianUnitTests */,
 				065F60181ED0087D00896DF9 /* Products */,
 				C479F4712E566A0344DE7C2D /* Pods */,
 				9698E38277CB98F07FA6AF8C /* Frameworks */,
@@ -81,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				065F60171ED0087D00896DF9 /* Vivian.app */,
-				065F602B1ED0087D00896DF9 /* VivianTests.xctest */,
+				065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +104,13 @@
 			path = Vivian;
 			sourceTree = "<group>";
 		};
-		065F602E1ED0087D00896DF9 /* VivianTests */ = {
+		065F602E1ED0087D00896DF9 /* VivianUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				065F602F1ED0087D00896DF9 /* VivianTests.swift */,
+				065F602F1ED0087D00896DF9 /* VivianUnitTests.swift */,
 				065F60311ED0087D00896DF9 /* Info.plist */,
 			);
+			name = VivianUnitTests;
 			path = VivianTests;
 			sourceTree = "<group>";
 		};
@@ -113,6 +119,7 @@
 			children = (
 				CBF150BBA3F32D3538684F96 /* Pods_Vivian.framework */,
 				80F07B807F27D31245E676F9 /* Pods_VivianTests.framework */,
+				924A17FB2FA8AC78AECC27F6 /* Pods_VivianUnitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,6 +131,8 @@
 				3D7DA2122DC0CB6D11F88BC1 /* Pods-Vivian.release.xcconfig */,
 				1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */,
 				80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */,
+				9DEF930A248FC130D5ADF0A2 /* Pods-VivianUnitTests.debug.xcconfig */,
+				C15DC37B32C1FC419120AEAB /* Pods-VivianUnitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -151,9 +160,9 @@
 			productReference = 065F60171ED0087D00896DF9 /* Vivian.app */;
 			productType = "com.apple.product-type.application";
 		};
-		065F602A1ED0087D00896DF9 /* VivianTests */ = {
+		065F602A1ED0087D00896DF9 /* VivianUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianTests" */;
+			buildConfigurationList = 065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianUnitTests" */;
 			buildPhases = (
 				60E41047048202C616238071 /* [CP] Check Pods Manifest.lock */,
 				065F60271ED0087D00896DF9 /* Sources */,
@@ -167,9 +176,9 @@
 			dependencies = (
 				065F602D1ED0087D00896DF9 /* PBXTargetDependency */,
 			);
-			name = VivianTests;
+			name = VivianUnitTests;
 			productName = VivianTests;
-			productReference = 065F602B1ED0087D00896DF9 /* VivianTests.xctest */;
+			productReference = 065F602B1ED0087D00896DF9 /* VivianUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +216,7 @@
 			projectRoot = "";
 			targets = (
 				065F60161ED0087D00896DF9 /* Vivian */,
-				065F602A1ED0087D00896DF9 /* VivianTests */,
+				065F602A1ED0087D00896DF9 /* VivianUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +269,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60E41047048202C616238071 /* [CP] Check Pods Manifest.lock */ = {
@@ -305,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianTests/Pods-VivianTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivianUnitTests/Pods-VivianUnitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD1A5619083FE567E5835292 /* [CP] Copy Pods Resources */ = {
@@ -339,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065F60301ED0087D00896DF9 /* VivianTests.swift in Sources */,
+				065F60301ED0087D00896DF9 /* VivianUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +505,7 @@
 		};
 		065F60381ED0087D00896DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1004835D7502937B6931CA90 /* Pods-VivianTests.debug.xcconfig */;
+			baseConfigurationReference = 9DEF930A248FC130D5ADF0A2 /* Pods-VivianUnitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,7 +520,7 @@
 		};
 		065F60391ED0087D00896DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80E4587C0D3F5D4F1E0CCF20 /* Pods-VivianTests.release.xcconfig */;
+			baseConfigurationReference = C15DC37B32C1FC419120AEAB /* Pods-VivianUnitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,14 +552,16 @@
 				065F60361ED0087D00896DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianTests" */ = {
+		065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				065F60381ED0087D00896DF9 /* Debug */,
 				065F60391ED0087D00896DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
