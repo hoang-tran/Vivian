@@ -1,0 +1,6 @@
+coverage_service: coveralls
+workspace: Vivian.xcworkspace
+xcodeproj: Vivian.xcodeproj
+scheme: Vivian
+ignore:
+  - Pods
