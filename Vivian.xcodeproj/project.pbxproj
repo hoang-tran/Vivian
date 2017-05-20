@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065F601B1ED0087D00896DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F601A1ED0087D00896DF9 /* AppDelegate.swift */; };
+		065F601D1ED0087D00896DF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F601C1ED0087D00896DF9 /* ViewController.swift */; };
+		065F60201ED0087D00896DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F601E1ED0087D00896DF9 /* Main.storyboard */; };
+		065F60221ED0087D00896DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065F60211ED0087D00896DF9 /* Assets.xcassets */; };
+		065F60251ED0087D00896DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */; };
+		065F60301ED0087D00896DF9 /* VivianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F602F1ED0087D00896DF9 /* VivianTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065F602C1ED0087D00896DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065F600F1ED0087D00896DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065F60161ED0087D00896DF9;
+			remoteInfo = Vivian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065F60171ED0087D00896DF9 /* Vivian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065F601A1ED0087D00896DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065F601C1ED0087D00896DF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065F601F1ED0087D00896DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065F60211ED0087D00896DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065F60241ED0087D00896DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065F60261ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065F602B1ED0087D00896DF9 /* VivianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065F602F1ED0087D00896DF9 /* VivianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivianTests.swift; sourceTree = "<group>"; };
+		065F60311ED0087D00896DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065F60141ED0087D00896DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065F60281ED0087D00896DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065F600E1ED0087D00896DF9 = {
+			isa = PBXGroup;
+			children = (
+				065F60191ED0087D00896DF9 /* Vivian */,
+				065F602E1ED0087D00896DF9 /* VivianTests */,
+				065F60181ED0087D00896DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065F60181ED0087D00896DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065F60171ED0087D00896DF9 /* Vivian.app */,
+				065F602B1ED0087D00896DF9 /* VivianTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065F60191ED0087D00896DF9 /* Vivian */ = {
+			isa = PBXGroup;
+			children = (
+				065F601A1ED0087D00896DF9 /* AppDelegate.swift */,
+				065F601C1ED0087D00896DF9 /* ViewController.swift */,
+				065F601E1ED0087D00896DF9 /* Main.storyboard */,
+				065F60211ED0087D00896DF9 /* Assets.xcassets */,
+				065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */,
+				065F60261ED0087D00896DF9 /* Info.plist */,
+			);
+			path = Vivian;
+			sourceTree = "<group>";
+		};
+		065F602E1ED0087D00896DF9 /* VivianTests */ = {
+			isa = PBXGroup;
+			children = (
+				065F602F1ED0087D00896DF9 /* VivianTests.swift */,
+				065F60311ED0087D00896DF9 /* Info.plist */,
+			);
+			path = VivianTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065F60161ED0087D00896DF9 /* Vivian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065F60341ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "Vivian" */;
+			buildPhases = (
+				065F60131ED0087D00896DF9 /* Sources */,
+				065F60141ED0087D00896DF9 /* Frameworks */,
+				065F60151ED0087D00896DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vivian;
+			productName = Vivian;
+			productReference = 065F60171ED0087D00896DF9 /* Vivian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065F602A1ED0087D00896DF9 /* VivianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianTests" */;
+			buildPhases = (
+				065F60271ED0087D00896DF9 /* Sources */,
+				065F60281ED0087D00896DF9 /* Frameworks */,
+				065F60291ED0087D00896DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065F602D1ED0087D00896DF9 /* PBXTargetDependency */,
+			);
+			name = VivianTests;
+			productName = VivianTests;
+			productReference = 065F602B1ED0087D00896DF9 /* VivianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065F600F1ED0087D00896DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hoang;
+				TargetAttributes = {
+					065F60161ED0087D00896DF9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					065F602A1ED0087D00896DF9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065F60161ED0087D00896DF9;
+					};
+				};
+			};
+			buildConfigurationList = 065F60121ED0087D00896DF9 /* Build configuration list for PBXProject "Vivian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065F600E1ED0087D00896DF9;
+			productRefGroup = 065F60181ED0087D00896DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065F60161ED0087D00896DF9 /* Vivian */,
+				065F602A1ED0087D00896DF9 /* VivianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065F60151ED0087D00896DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065F60251ED0087D00896DF9 /* LaunchScreen.storyboard in Resources */,
+				065F60221ED0087D00896DF9 /* Assets.xcassets in Resources */,
+				065F60201ED0087D00896DF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065F60291ED0087D00896DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065F60131ED0087D00896DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065F601D1ED0087D00896DF9 /* ViewController.swift in Sources */,
+				065F601B1ED0087D00896DF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065F60271ED0087D00896DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065F60301ED0087D00896DF9 /* VivianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065F602D1ED0087D00896DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065F60161ED0087D00896DF9 /* Vivian */;
+			targetProxy = 065F602C1ED0087D00896DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065F601E1ED0087D00896DF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065F601F1ED0087D00896DF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065F60231ED0087D00896DF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065F60241ED0087D00896DF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065F60321ED0087D00896DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		065F60331ED0087D00896DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065F60351ED0087D00896DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vivian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.Vivian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		065F60361ED0087D00896DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vivian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.Vivian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		065F60381ED0087D00896DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VivianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.VivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivian.app/Vivian";
+			};
+			name = Debug;
+		};
+		065F60391ED0087D00896DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VivianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoang.tran.VivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivian.app/Vivian";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065F60121ED0087D00896DF9 /* Build configuration list for PBXProject "Vivian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065F60321ED0087D00896DF9 /* Debug */,
+				065F60331ED0087D00896DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065F60341ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "Vivian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065F60351ED0087D00896DF9 /* Debug */,
+				065F60361ED0087D00896DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		065F60371ED0087D00896DF9 /* Build configuration list for PBXNativeTarget "VivianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065F60381ED0087D00896DF9 /* Debug */,
+				065F60391ED0087D00896DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065F600F1ED0087D00896DF9 /* Project object */;
+}
